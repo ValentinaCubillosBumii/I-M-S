@@ -7,5 +7,6 @@
   "stockValidation": "Stock count must be between 1 and 255",
   "imageRequired": "Image URL is required",
   "imageValidation": "Image must be a valid URL",
-  "invalidId": "Invalid Book Id"
+  "invalidId": "Invalid Book Id",
+  "bookIDValidation":"Book ID must be a valid MongoDB ObjectId"
 }

@@ -13,7 +13,7 @@ const createBookValidation = [
        .isFloat({ min: 1, max: 1000 })
        .withMessage((value, { req }) => req.t("priceValidation")),
 
-    body("counterStock")
+    body("countInStock")
         .notEmpty()
         .withMessage((value, { req }) => req.t("stockRequired"))
         .isInt({ min: 1, max: 255 })
@@ -41,7 +41,7 @@ const updateBookValidation = [
       .isFloat({ min: 1, max: 1000 })
       .withMessage((value, { req }) => req.t("priceValidation")),
 
-    body("counterStock")
+    body("countInStock")
         .optional()
         .isInt({ min: 1, max: 255 })
         .withMessage((value, { req }) => req.t("stockValidation")),
