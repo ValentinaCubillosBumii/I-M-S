@@ -1,0 +1,11 @@
+{
+  "bookNameRequired": "Book name is required",
+  "bookNameLengthValidation": "Book name must be between 5 and 10 characters",
+  "priceRequired": "Price is required",
+  "priceValidation": "Price must be between 1 and 1000",
+  "stockRequired": "Stock count is required",
+  "stockValidation": "Stock count must be between 1 and 255",
+  "imageRequired": "Image URL is required",
+  "imageValidation": "Image must be a valid URL",
+  "invalidId": "Invalid Book Id"
+}
